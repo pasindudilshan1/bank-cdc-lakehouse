@@ -1,0 +1,23 @@
+# Private build guide (kept local only)
+Banking CDC Lakehouse End-to-End Build Guide*.md
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Databricks
+.databricks/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
